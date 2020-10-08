@@ -29,3 +29,4 @@ This course covers the basics of data structures and algorithms used in common c
 - Getting Started with Python: [Python for Beginners](https://www.python.org/about/gettingstarted/)
 - Getting Started with Git: [A step-by-step guide to Git](https://opensource.com/article/18/1/step-step-guide-git)
 - Sorting Algorithms: [Sorting Algorithms in Python](https://stackabuse.com/sorting-algorithms-in-python/)
+- Merge Sort / Divide and Conquer: [Overview of merge sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)
