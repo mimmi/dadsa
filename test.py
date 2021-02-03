@@ -1,20 +1,19 @@
-from data_structures.stack import Stack
+# Queue
+from data_structures.queue import Queue
 
-# Instantiation
-my_stack = Stack(100)
+my_queue = Queue(5)
 
-my_stack.push(10)
-my_stack.push(10)
-my_stack.push(10)
-my_stack.push(10)
-my_stack.push(10)
-my_stack.push(10)
-my_stack.push(10)
-my_stack.push(10)
-my_stack.push(10)
-my_stack.push(10)
-result = my_stack.push(20)
-if (result == False):
-    print("Stack is full")
+my_queue.enqueue(10)
+my_queue.enqueue(20)
+my_queue.enqueue(30)
 
-print(my_stack.display())
+my_queue.display()
+print("-- printing done --")
+my_queue.dequeue()
+print("-- dequeue done --")
+my_queue.display()
+print("-- printing done --")
+my_queue.dequeue()
+print("-- dequeue done --")
+my_queue.display()
+print("-- printing done --")
