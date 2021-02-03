@@ -1,10 +1,20 @@
-my_stack = Stack()
-my_stack.push(5)
-my_stack.push(7)
-my_stack.push(9)
-my_stack.pop()
-my_stack.pop()
-my_stack.push(11)
-response = my_stack.pop()
-print(response)
+from data_structures.stack import Stack
+
+# Instantiation
+my_stack = Stack(100)
+
+my_stack.push(10)
+my_stack.push(10)
+my_stack.push(10)
+my_stack.push(10)
+my_stack.push(10)
+my_stack.push(10)
+my_stack.push(10)
+my_stack.push(10)
+my_stack.push(10)
+my_stack.push(10)
+result = my_stack.push(20)
+if (result == False):
+    print("Stack is full")
+
 print(my_stack.display())
